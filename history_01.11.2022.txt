@@ -1,0 +1,58 @@
+   0 cd /
+   1 cd home
+   2 mkdir animals
+   3 cd animals
+   4 mkdir dogs
+   5 mkdir cats
+   6 mkdir fish
+   7 cd dogs
+   8 touch pluto.txt
+   9 cd /home/animals
+  10 cd cats
+  11 touch garfield.txt
+  12 cd /home/animals/fish
+  13 touch nemo
+  14 cd /home/animals
+  15 ls
+  16 cd dogs
+  17 ls
+  18 cd /home
+  19 ls
+  20 cd /
+  21 ls
+  22 cd tmp
+  23 touch adam
+  24 ls
+  25 cd /
+  26 cd home
+  27 mkdir human
+  28 cd /
+  29 cd tmp
+  30 cd /
+  31 cp /home/tmp/adam home/human/
+  32 cd
+  33 cp /home/tmp/adam /home/human/
+  34 cd tmp
+  35 cd
+  36 cd /
+  37 cd tmp
+  38 ls
+  39 cd home
+  40 cd /
+  41 cp /tmp/adam /human/
+  42 ls
+  43 cd home
+  44 ls
+  45 cd /
+  46 cp /tmp/adam /home/human/
+  47 mkdir /tmp/evA
+  48 mv /tmp/evA /opt/eve
+  49 cd opt
+  50 ls
+  51 cd /
+  52 mv /opt/eve /home/human/
+  53 cd home
+  54 cd human
+  55 ls
+  56 cd /
+  57 history > history_01.11.2022.txt
